@@ -2,50 +2,16 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.main_title {
-  color: #2196f3;
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-}
-.header_line {
-  border-bottom: #2196f3;
-  display: flex;
-  justify-content: space-around;
-  width: 1200px;
-  align-items: center;
-  padding: 15px;
-}
-.subtitle {
-  color: #212121;
-  justify-content: flex-end;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-}
-.subtitle:hover {
-  color: #2196f3;
-}
-.link_style {
-  text-decoration: none;
-}
-.subtitle {
-  color: #212121;
-  justify-content: flex-end;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-}
 .portafolio_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 50px;
+}
+.nav_button {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 .nav_button__btn {
   background: #f5f4fa;
@@ -57,12 +23,14 @@
 .nav_button__btn:hover {
   background-color: #2196f3;
   color: #f4f7fa;
+  cursor: pointer;
 }
+
+// tarjetas
 .main_imagin {
   list-style: none;
   display: flex;
-  gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -70,6 +38,7 @@
 .card {
   border: 1px solid #eeeeee;
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
 }
 .card_body {
   padding: 20px 24px;
@@ -91,7 +60,7 @@
   font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 

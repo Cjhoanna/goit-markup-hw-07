@@ -1,0 +1,35 @@
+.we_do {
+  padding-bottom: 94px;
+
+  &__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  &__item {
+    position: relative;
+    height: 294px;
+    width: 370px;
+  }
+  &__text {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
+
+<head>
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gostatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"> 
-      <link rel="stylesheet" href="./CSS/compartidos.css" type="text/css">
-      <link rel="stylesheet" href="./CSS/portafolio.css" type="text/css">
-      <title>portafolio</title>
-  </head>
-  <body>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gostatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/main.min.css">
+  <title>portafolio</title>
+</head>
+
+<body>
   <header class="header_section">
-        <div class="header_container container_contact">
-          <nav class="menu">
-            <a class="logo" href="index.html">WEBSTUDIO</a>
-            <ul class="menu_list">
-              <li>
-                <a href="./index.html" class="menu_link">studio</a>
-              </li>
-              <li>
-                <a href="./portafolio.html" class="menu_link">portfolio</a>
-              </li>
-              <li>
-                <a href="#" class="menu_link">contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="contact_list">
-            <li>
-              <a class=" contact_link" href="mailto:info@devstudio.com">
-                <svg class="header_svg">
-                  <use href="./imagenes/svg/sprite.svg#icon-sobre"></use> 
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li>
-              <a class="contact_link" href="tel:+1 212-772-4150"> 
-                <svg class="header_svg">
-                  <use href="./imagenes/svg/sprite.svg#icon-telfono-inteligente"></use> 
-                </svg>
-                +1 212-772-4150
-              </a>
-            </li>
-          </ul>
-        </div>
-    </header>
-    <main class="main_portafolio">
-      <section class="main_portafolio_section">
-        <nav class="header_button_5 conteiner">
-        <button class="nav_button" type="button">todo</button>
-        <button class="nav_button" type="button">sitios - web</button>
-        <button class="nav_button" type="button">Aplicaciones</button>
-        <button class="nav_button" type="button">Diseño</button>
-        <button class="nav_button" type="button">Marketing</button>
+    <div class="header_container container">
+      <nav class="header_menu">
+        <a class="header_logo" href="index.html">WEBSTUDIO</a>
+        <ul class="header_menu__list">
+          <li>
+            <a href="./index.html" class="header_menu__link header_menu__link--fixed  ">studio</a>
+          </li>
+          <li>
+            <a href="./portafolio.html" class="header_menu__link">portfolio</a>
+          </li>
+          <li>
+            <a href="#" class="header_menu__link">contacts</a>
+          </li>
+        </ul>
       </nav>
-        <ul class="main_imagin conteiner our_team_card">
-          <li class="card card:hover">
+      <ul class="contact_list">
+        <li>
+          <a class=" contact_list__link" href="mailto:info@devstudio.com">
+            <svg class="contact_list__svg">
+              <use href="./imagenes/svg/sprite.svg#icon-sobre"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a class="contact_list__link" href="tel:+1 212-772-4150">
+            <svg class="contact_list__svg">
+              <use href="./imagenes/svg/sprite.svg#icon-telfono-inteligente"></use>
+            </svg>
+            +1 212-772-4150
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="main_portafolio_section">
+      <div class="container portafolio_container">
+        <nav class="nav_button">
+          <button class="nav_button__btn" type="button">todo</button>
+          <button class="nav_button__btn" type="button">sitios - web</button>
+          <button class="nav_button__btn" type="button">Aplicaciones</button>
+          <button class="nav_button__btn" type="button">Diseño</button>
+          <button class="nav_button__btn" type="button">Marketing</button>
+        </nav>
+        <ul class="main_imagin">
+          <li class="card">
             <div class="card_animation">
-              <img class="card-imagin"
-              src="./imagenes/portafolio1.jpg" alt="comunicación" width="370" height="294">
+              <img class="card_imagin" src="./imagenes/portafolio1.jpg" alt="comunicación" width="370" height="294">
               <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
               </div>
               <div class="card_body">
                 <p class="card_title">tecnoduck</p>
@@ -73,24 +75,24 @@
             </div>
           </li>
           <li class="card">
-             <div class="card_animation">
-            <img class="card-imagin"
-              src="./imagenes/portafolio2.jpg" alt="Deporte" width="370" height="294">
-               <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+            <div class="card_animation">
+              <img class="card_imagin" src="./imagenes/portafolio2.jpg" alt="Deporte" width="370" height="294">
+              <div class="card_emergent">
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
               </div>
-           <div class="card_body">
-              <h3 class="card_title">poster de nueva orleans</h3>
-              <p class="card_description">Diseño</p>
+              <div class="card_body">
+                <h3 class="card_title">poster de nueva orleans</h3>
+                <p class="card_description">Diseño</p>
+              </div>
             </div>
-          </div>
           </li>
           <li class="card">
-             <div class="card_animation">
-              <img class="card-imagin"
-              src="./imagenes/portafolio3.jpg"  alt="restaurant" width="370" height="294">
-               <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+            <div class="card_animation">
+              <img class="card_imagin" src="./imagenes/portafolio3.jpg" alt="restaurant" width="370" height="294">
+              <div class="card_emergent">
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
               </div>
               <div class="card_body">
                 <h3 class="card_title">restaurante sea food</h3>
@@ -99,12 +101,12 @@
             </div>
           </li>
           <li class="card">
-             <div class="card_animation">
-              <img class="card-imagin"
-                src="./imagenes/portafolio4.jpg" alt="music" width="370" height="294">
-                <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
-                </div>
+            <div class="card_animation">
+              <img class="card_imagin" src="./imagenes/portafolio4.jpg" alt="music" width="370" height="294">
+              <div class="card_emergent">
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
+              </div>
               <div class="card_body">
                 <h3 class="card_title">proyecto prime</h3>
                 <p class="card_description">marketing</p>
@@ -112,127 +114,138 @@
             </div>
           </li>
           <li class="card">
-             <div class="card_animation">
-              <img class="card-imagin"
-              src="./imagenes/portafolio5.jpg" alt="cajas" width="370" height="294">
+            <div class="card_animation">
+              <img class="card_imagin" src="./imagenes/portafolio5.jpg" alt="cajas" width="370" height="294">
               <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
               </div>
               <div class="card_body">
                 <h3 class="card_title">Project Boxes</h3>
                 <p class="card_description">aplicaciones</p>
               </div>
             </div>
-          </li>  
+          </li>
           <li class="card">
-             <div class="card_animation">
-              <img class="card-imagin"
-              src="./imagenes/portafolio6.jpg" alt="computer" width="370" height="294">
+            <div class="card_animation">
+              <img class="card_imagin" src="./imagenes/portafolio6.jpg" alt="computer" width="370" height="294">
               <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
               </div>
               <div class="card_body">
                 <h3 class="card_title">Inspiration has no Borders</h3>
                 <p class="card_description">sitio-web</p>
               </div>
             </div>
-          </li> 
+          </li>
           <li class="card">
             <div class="card_animation">
-              <img class="card-imagin"
-              src="./imagenes/portafolio7.jpg" alt="library" width="370" height="294">
+              <img class="card_imagin" src="./imagenes/portafolio7.jpg" alt="library" width="370" height="294">
               <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
               </div>
               <div class="card_body">
                 <h3 class="card_title">Limited Edition</h3>
                 <p class="card_description">Diseño</p>
               </div>
             </div>
-          </li>  
+          </li>
           <li class="card">
             <div class="card_animation">
-              <img class="card-imagin"
-              src="./imagenes/portafolio8.jpg" alt="lab" width="370" height="294">
+              <img class="card_imagin" src="./imagenes/portafolio8.jpg" alt="lab" width="370" height="294">
               <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
               </div>
               <div class="card_body">
                 <h3 class="card_title">proyecto lab</h3>
                 <p class="card_description">Marketing</p>
               </div>
             </div>
-          </li>       
+          </li>
           <li class="card">
             <div class="card_animation">
-              <img class="card-imagin"
-              src="./imagenes/portafolio9.jpg" alt="business" width="370" height="294">
+              <img class="card_imagin" src="./imagenes/portafolio9.jpg" alt="business" width="370" height="294">
               <div class="card_emergent">
-                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
+                Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for
+                digital espionage and attacks on competitors' secure servers.
               </div>
               <div class="card_body">
                 <h3 class="card_title">Growing Business</h3>
                 <p class="card_description">aplicaciones</p>
               </div>
             </div>
-        </div>
-          </li>   
-      </ul>
-  </section>
-</main>
- <footer class="footer_section">
-          <aside class="footer_container ontainer_footer">
-            <div class="footer_logo_address">
-            <a class="logo" href="index.html">WEBSTUDIO</a>
-            <address>
-             <ul class="footer_address_paragraph">
-                <li>
-                  <a class="footer_address">695 Park Ave, NY 10065,USA</a>
-                </li>
-              <li>
-                <a class="footer_email" href="info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li>
-                <a class="footer_number" href="">+1 212-772-4150</a>
-              </li>
-             </ul>
-            </address>
-            </div>
-            <div class="footer_social">
-              <h2 class="aside_footer_title">find us on</h2>
-              <ul class="our_team_icons">
-                <li class="our_team_icon">
-                  <a  class="our_team_social" href="#">
-                    <svg class="icon">
-                      <use href="./imagenes/svg/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="our_team_icon">
-                  <a  class="our_team_social" href="#">
-                    <svg class="icon">
-                      <use href="./imagenes/svg/sprite.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="our_team_icon">
-                  <a  class="our_team_social" href="#">
-                    <svg class="icon">
-                      <use href="./imagenes/svg/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="our_team_icon">
-                  <a  class="our_team_social" href="#">
-                    <svg class="icon">
-                      <use href="./imagenes/svg/sprite.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </aside>
-    </footer>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer_section">
+    <aside class="footer_container container">
+      <div class="footer_address">
+        <a class="footer_logo" href="index.html">WEBSTUDIO</a>
+        <address>
+          <ul class="footer_address__paragraph">
+            <li>
+              <a class="footer_address__link footer_address__link--white ">695 Park Ave, NY 10065,USA</a>
+            </li>
+            <li>
+              <a class="footer_address__link" href="info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="footer_address__link" href="">+1 212-772-4150</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer_social">
+        <h2 class="aside_footer_title">find us on</h2>
+        <ul class="our_team__icons">
+          <li class="our_team__item">
+            <a class="our_team__social" href="#">
+              <svg class="our_team__icon">
+                <use href="./imagenes/svg/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our_team__item">
+            <a class="our_team__social" href="#">
+              <svg class="our_team__icon">
+                <use href="./imagenes/svg/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our_team__item">
+            <a class="our_team__social" href="#">
+              <svg class="our_team__icon">
+                <use href="./imagenes/svg/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="our_team__item">
+            <a class="our_team__social" href="#">
+              <svg class="our_team__icon">
+                <use href="./imagenes/svg/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_subscribe">
+        <h3 class="aside_footer_title">Subscribe to the newsletter</h3>
+        <form class="form_footer">
+          <input class="form_footer__input" placeholder="Email"></input>
+          <button class="form_footer__subscribe" type="button">Subscribe
+            <svg class="form_footer__svg">
+              <use href="./imagenes/svg/sprite.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </aside>
+  </footer>
 </body>
-</html>
 
+</html>

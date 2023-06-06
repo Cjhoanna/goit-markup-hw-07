@@ -1,0 +1,87 @@
+.footer_logo {
+  margin-right: 93px;
+  color: #2196f3;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.footer_section {
+  background: #2f303a;
+  width: 100%;
+}
+.footer_address {
+  width: 231px;
+
+  &_paragraph {
+    margin: 0;
+  }
+  &__link {
+    color: #757575;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  &__link--white {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+.footer_container {
+  padding: 60px;
+  display: flex;
+  align-items: baseline;
+}
+.footer_social {
+  margin-left: 72px;
+}
+.aside_footer_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer_subscribe {
+  margin-left: 93px;
+}
+.form_footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &__input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 15px 45px 15px 16px;
+  }
+  &__subscribe {
+    background-color: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 13px 28px;
+    color: #ffffff;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  &__svg {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+  }
+}

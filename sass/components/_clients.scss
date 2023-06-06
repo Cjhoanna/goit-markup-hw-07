@@ -1,11 +1,10 @@
-/* clientes */
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .clients__icon {
-  width: 100px;
-  height: 100px;
+  width: 106px;
+  height: 60px;
   fill: #afb1b8;
 }
 .clients__icon:hover {
@@ -46,9 +45,4 @@
 .clients__item:focus {
   background: #ffffff;
   border-color: #2196f3;
-}
-.main_regular_customers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
